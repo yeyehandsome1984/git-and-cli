@@ -108,6 +108,10 @@ Add a new file `notes.txt` and write `The quick brown fox jumps over the lazy do
 
 Once changes are made, use `git status` command and you will observed a new file is added.
 
+<img src="./assets/images/commit-step-7a.png" style="border:1px solid green" />
+
+Now, let's stage this file by using the `git add` command.
+
 ```sh
 git add . 
 ```
@@ -118,15 +122,19 @@ or
 git add notes.txt
 ```
 
-`.` refers to the current directory while specifying `notes.txt` will add the specific file.
+- `.` refers to the current directory while specifying `notes.txt` will add the specific file.
 
 ```sh
 git add notes.*
 ```
 
-You can also use the wildcard (*) to add multiple files that starts with `notes.` in this case.
+- You can also use the wildcard (*) to add multiple files that starts with `notes.` in this case.
 
 After `git add`, perform `git status` to check that the file is added.
+
+<img src="./assets/images/commit-step-7b.png" style="border:1px solid green" />
+
+- You'll notice the notes.txt has turned to green color with a prefix `new file:`
 
 Now, perform `git commit` to commit the change to the local repository.
 
@@ -136,9 +144,10 @@ git commit -m "enter a meaning commit summary" # such as "added notes.txt file"
 
 Use `git status` to check if the file is committed
 
-```sh
-git status
-```
+<img src="./assets/images/commit-step-7c.png" style="border:1px solid green" />
+
+- it says "nothing to commit" and hence all files are commited
+
 **Step 8: Push commit**
 
 ```sh
