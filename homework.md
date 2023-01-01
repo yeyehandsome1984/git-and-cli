@@ -2,12 +2,10 @@
 
 ## Brief
 
-Refer to [this directory](./src/homework) for homework.
+Now that you have learned how to `fork` and `clone` repository. You should always `fork` and `clone` the next lesson to your local machine before class starts. 
 
-{{Input instructions on how to complete this assignment}}
+For this homework, you are to perform `fork` and `clone` the next lesson's repository: https://github.com/trent-f2f-bootcamp-pt/html-and-css
 
 ## Submission
 
-{{Input instructions on how to submit this assignment}}
-
-END
+There is no submission required for this lesson.
