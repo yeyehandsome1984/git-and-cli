@@ -62,6 +62,94 @@ Step 3: Verify that the repository is forked
 
 ## Part 3 - Commit Changes and Push Commits
 
-{{Input concepts, replicable steps & Code Samples}}
+**Step 1: Decide on a directory to store all your lesson repositories**
+
+Recommendations depending on your setup...
+
+Windows User: `C:\Users\<your username>\Trent` or `D:\Trent`
+
+MacOS User: `~/Trent` or `/Users/<your username>/Trent`
+
+
+**Step 2: Change Directory to `Trent` folder**
+
+```sh
+cd ~/Trent # replace the path with your actual directory
+```
+
+**Step 3: Clone the repository**
+
+```sh
+git clone https://github.com/your_username/git-and-cli # replace your_username 
+``` 
+
+**Step 4: Change Directory to the Repository cloned**
+
+```sh
+cd git-and-cli
+```
+
+**Step 5: Launch VS Code for that repository**
+
+Command Line:
+```sh
+code .
+```
+
+VS Code:
+
+{{insert picture}}
+
+**Step 6: Make changes**
+
+Add a new file `notes.txt` and write `The quick brown fox jumps over the lazy dog` as conent.
+
+**Step 7: Commit changes**
+
+Once changes are made, use `git status` command and you will observed a new file is added.
+
+```sh
+git add . 
+```
+
+or
+
+```sh
+git add notes.txt
+```
+
+`.` refers to the current directory while specifying `notes.txt` will add the specific file.
+
+```sh
+git add notes.*
+```
+
+You can also use the wildcard (*) to add multiple files that starts with `notes.` in this case.
+
+After `git add`, perform `git status` to check that the file is added.
+
+Now, perform `git commit` to commit the change to the local repository.
+
+```sh
+git commit -m "enter a meaning commit summary" # such as "added notes.txt file"
+```
+
+Use `git status` to check if the file is committed
+
+```sh
+git status
+```
+**Step 8: Push commit**
+
+```sh
+git push origin main
+```
+
+- `origin` refers to the link to the remote repository that you cloned from. Run `git remote -v` to check it out.
+- `main` is the default branch. All repository starts from `main`. (In older version of GIT, default branch is `master`)
+
+**Step 9: Verify changes are pushed*
+
+Go to `https://github.com/your_username/git-and-cli` to verify that `notes.txt` file is present.
 
 END
