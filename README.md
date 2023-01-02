@@ -19,11 +19,11 @@ By the end of this lesson, learners would be able to:
 |Duration|Agenda|Delivery Method|Remarks|
 |-|-|-|-|
 |10 mins|Walk-in & Hook|Lecture|Intrigue students' curiosity about today's topic while giving buffer time for students who are late.|
-|30 mins|Part 1| Lecture with Optional Hands-on Activity| This is the only slot instructor may give full 30 mins lecture. This slot may be used to answer questions from previous exit ticket.|
-|30 mins|Part 2| Lecture with Mandatory Hands-on or Group Activity|Instructor must not lecture more than 10 mins|
-|10 mins|Break| |The essence of the lesson must be delivered before this break.|
-|30 mins|Part 3| Lecture with Mandatory Hands-on or Group Activity|Instructor must not lecture more than 10 mins. Draw connections for this part to Part 1 and 2 for better retention.|
-|40 mins|Q&A| Discussion | Group students in pair to share one key learnings of the day. Encourage students to formulate questions and write them down as exit ticket. Instructors may start to answer those questions. Left over questions may be followed up in next lesson.|
+|30 mins|Part 1| What is GIT?|
+|20 mins|Part 2| Forking & Cloning Repository|
+|10 mins|Break| |
+|40 mins|Part 3| Commit changes and push commits|
+|40 mins|Q&A| Early dismissal is possible here as homework does not require submission|
 
 Teaching Principles:
 - Students have limited bandwidth after work. Deliver the most important part of the lesson within the first 1 hour.
