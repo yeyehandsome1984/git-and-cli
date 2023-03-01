@@ -96,10 +96,6 @@ Command Line:
 code .
 ```
 
-VS Code:
-
-{{insert picture}}
-
 **Step 6: Make changes**
 
 Add a new file `notes.txt` and write `The quick brown fox jumps over the lazy dog` as conent.
